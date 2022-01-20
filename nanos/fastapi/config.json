@@ -1,0 +1,15 @@
+{
+    "MapDirs": {
+        "./.venv/*": "/.local",
+        "./usr/lib64/*": "/usr/lib/x86_64-linux-gnu"
+    },
+    "Args": [
+        "/.local/bin/uvicorn",
+        "main:app",
+        "--port=8000",
+        "--host=0.0.0.0"
+    ],
+    "Files": [
+        "main.py"
+    ]
+}
